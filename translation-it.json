@@ -1,0 +1,32 @@
+{
+    "devdoc": {
+        "kind": "dev",
+        "methods": {
+            "age(uint256)": {
+                "details": "L'algoritmo di Alexandr N. Tetearing potrebbe aumentare la precisione",
+                "params": {
+                    "rings": "Il numero di anelli del campione dendrocronologico"
+                },
+                "returns": {
+                    "_0": "età in anni, arrotondata per eccesso per gli anni parziali"
+                }
+            },
+            "leaves()": {
+                "details": "Restituisce solo un numero fisso."
+            }
+        },
+        "version": 1
+    },
+    "userdoc": {
+        "kind": "user",
+        "methods": {
+            "age(uint256)": {
+                "notice": "Calcolare l'età dell'albero in anni, arrotondata per eccesso, per gli alberi vivi."
+            },
+            "leaves()": {
+                "notice": "Restituisce la quantità di foglie che questo specifico tipo di albero ha"
+            }
+        },
+        "version": 1
+    }
+}

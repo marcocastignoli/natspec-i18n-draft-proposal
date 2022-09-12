@@ -1,0 +1,104 @@
+{
+    "compiler": {
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+        "abi": [
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "rings",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "age",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "pure",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "leaves",
+                "outputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "",
+                        "type": "uint256"
+                    }
+                ],
+                "stateMutability": "pure",
+                "type": "function"
+            }
+        ],
+        "devdoc": {
+            "author": "Larry A. Gardner",
+            "custom:experimental": "This is an experimental contract.",
+            "custom:translations": "ipfs://QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR",
+            "details": "All function calls are currently implemented without side effects",
+            "kind": "dev",
+            "methods": {
+                "age(uint256)": {
+                    "details": "The Alexandr N. Tetearing algorithm could increase precision",
+                    "params": {
+                        "rings": "The number of rings from dendrochronological sample"
+                    },
+                    "returns": {
+                        "_0": "Age in years, rounded up for partial years"
+                    }
+                },
+                "leaves()": {
+                    "details": "Returns only a fixed number."
+                }
+            },
+            "title": "A simulator for trees",
+            "version": 1
+        },
+        "userdoc": {
+            "kind": "user",
+            "methods": {
+                "age(uint256)": {
+                    "notice": "Calculate tree age in years, rounded up, for live trees"
+                },
+                "leaves()": {
+                    "notice": "Returns the amount of leaves the tree has."
+                }
+            },
+            "notice": "You can use this contract for only the most basic simulation",
+            "version": 1
+        }
+    },
+    "settings": {
+        "compilationTarget": {
+            "natspec-i18n.sol": "Tree"
+        },
+        "evmVersion": "london",
+        "libraries": {},
+        "metadata": {
+            "bytecodeHash": "ipfs"
+        },
+        "optimizer": {
+            "enabled": false,
+            "runs": 200
+        },
+        "remappings": []
+    },
+    "sources": {
+        "natspec-i18n.sol": {
+            "keccak256": "0x879b2959d33c603606c90a7c22317391202e453efc1093458d747e316a452caf",
+            "license": "GPL-3.0",
+            "urls": [
+                "bzz-raw://45e725f47c582d8d3f7617523f59c94b8c7e9a25c51bb37c69283bf99ec825e0",
+                "dweb:/ipfs/Qmbs4cH7cj39XXb4EMMJbr7YrtbAA4CvY7LT1u9EVybgmr"
+            ]
+        }
+    },
+    "version": 1
+}
